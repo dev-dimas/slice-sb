@@ -5,6 +5,9 @@ import { components, hooks, utils } from '@generouted/react-router/client'
 
 export type Path =
   | `/`
+  | `/minting-gold`
+  | `/minting-platinum`
+  | `/minting-silver`
 
 export type Params = {
   
