@@ -1,7 +1,8 @@
+import LayoutMinting from '@/components/layout/layout-minting';
+import useDocumentTitle from '@/hooks/useDocumentTitle';
+
 export default function MintingGold() {
-  return (
-    <div>
-      <h1>Minting Gold</h1>
-    </div>
-  );
+  useDocumentTitle('Specta Trading - Gold');
+
+  return <LayoutMinting variant="gold" />;
 }
